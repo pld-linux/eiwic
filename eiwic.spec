@@ -1,6 +1,7 @@
 # TODO
 # - initscript
 Summary:	IRC-bot written in pure C
+Summary(pl.UTF-8):	Bot IRC-owy napisany w czystym C
 Name:		eiwic
 Version:	1.0.14
 Release:	0.1
@@ -18,6 +19,12 @@ Eiwic is an IRC bot which can be easily extended by modules that can
 be loaded at runtime. It has a module API which is designed to make
 the creation of your own modules as easy as possible, including
 "output routing", a TCP/IP socket interface, and timer functions.
+
+%description -l pl.UTF-8
+Eiwic to bot IRC-owy, który można łatwo rozszerzać modułami
+wczytywanymi w czasie działania. Ma API dla modułów zaprojektowane z
+myślą o łatwym tworzeniu własnych modułów, wraz z "routingiem
+wyjściowym", interfejsem gniazd TCP/IP i funkcjami zegarowymi.
 
 %prep
 %setup -q
